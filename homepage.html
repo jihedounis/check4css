@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home Page </title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+    <video playinline autoplay muted loop id="bg">
+        <source src="Dio live wallpaper.mp4" type="video/mp4">
+    </video>
+
+    <section>
+        <div class="navbar">
+            <img src="image/logo.png" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </div>
+        <div class="about" id="about">
+            <h1>About Me</h1>
+            <P>Hello Im jihed , im a graphic designer and a future web developer .<br/>Welcome to this website which i made as a portfolio and a way to  test the skills i mastered in the HTML courses</P>
+            <div>
+           <a href="#work"></a> <button type="submit" onclick="document.location='works.html'"><span></span>Work Gallery</button>
+           <a href="resume"></a> <button type="button" onclick="document.location='resume.html'"><span></span>Resume</button>
+           </div>
+        
+        </div>
+    </section>
+    <section class="work" id="work">
+        <h1 class="title">My Works preview</h1>
+        <div class="content">
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/baki.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Baki Hanma T-shirt</p>
+                </div>
+            </div>
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/gojo smpl.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Gojo jujutsu kaisen T-shirt</p>
+                </div>
+            </div>
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/dofla.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Joker Doflamingo T-shirt</p>
+                </div>
+            </div>
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/edo tensei.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Edo tensei no jutsu T-shirt</p>
+                </div>
+            </div>
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/tanjiroo.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Kamado Tanjiro T-shirt</p>
+                </div>
+            </div>
+            <div class="work-area">
+                <div class="work-image">
+                    <img src="image/works/fly.jpg"/>
+                </div>
+                <div class="work-info">
+                    <p class="work-parg">Fly high T-shirt</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section  class="resume" id="resume">
+        <div class="stuff">
+            <br><br>
+            <h1 class="title">Resume</h1>
+            <h2>Jihed Ounis</h2>
+            <hr />
+            <br>
+            <h2 >Interests</h2>
+            <ul>
+              <li>Video Games</li>
+              <li>Programming</li>
+              <li>Computer Science</li>
+            </ul>
+            <h2>My Skills</h2>
+
+            <p>HTML</p>
+            <div class="container" id="contact">
+              <div class="skills html"><h3>90%</h3></div>
+            </div>
+
+             <p>Photoshop</p>
+            <div class="container">
+              <div class="skills ps"><h3>90%</h3></div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+              <div class="skills css"><h3>80%</h3></div>
+            </div> 
+            <h2>click the resume button above to read the full version</h2>
+
+            
+          </div>
+        </section>
+           
+            
+           
+
+          <div class="contact">
+            <h1 id="title">Contact</h1>
+            <form action="#" name="contact_form">
+                <label for="first_name">First Name</label>
+                <input name="first_name" type="text" required placeholder="Jihed"/>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input name="last_name" type="text" required placeholder="Ounis"/>
+                <br>
+                <label for="email">Email</label>
+                <input name="email" type="email" required placeholder="you@domain.com"/>
+                <br>
+                <label for="message">Message</label><br>
+                <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+                <div class="center">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>	
+        </div>
+        <footer>
+            <p>Author: Jihed Ounis <br>
+          </footer>
+	</body>
+    
+</html>
